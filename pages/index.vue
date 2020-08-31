@@ -1,5 +1,9 @@
 <template>
-  <main></main>
+  <main>
+    <div>
+      <WhatIsProgramming></WhatIsProgramming>
+    </div>
+  </main>
 </template>
 
 <style lang="sass" scoped>
@@ -13,6 +17,11 @@ main
 
 <script lang="ts">
 import Vue from 'vue'
+import WhatIsProgramming from '~/components/index_page-components/WhatIsProgramming.vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  components: {
+    WhatIsProgramming,
+  },
+})
 </script>
