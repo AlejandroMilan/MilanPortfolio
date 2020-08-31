@@ -6,7 +6,9 @@
 main
   min-width: 100%
   min-height: 100vh;
-  background-color: var(--primary)
+  background-color: var(--white)
+  display: flex
+  align-items: center
 </style>
 
 <script lang="ts">
