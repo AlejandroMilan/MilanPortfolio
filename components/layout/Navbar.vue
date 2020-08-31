@@ -21,7 +21,7 @@
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
-          <a class="btn btn-primary" href="">Hola mundo</a>
+          <b-button variant="primary" to="/"> Work with me </b-button>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
