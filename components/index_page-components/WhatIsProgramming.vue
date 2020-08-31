@@ -1,7 +1,10 @@
 <template>
   <div class="what-is-programming container">
     <h1 class="font-weight-bold">
-      Web development is {{ adjectives[adjectivePosition] }}
+      Web development is
+      <transition name="fade"
+        ><span>{{ adjectives[adjectivePosition] }}</span></transition
+      >
     </h1>
   </div>
 </template>
