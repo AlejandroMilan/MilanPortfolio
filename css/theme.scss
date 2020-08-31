@@ -2,4 +2,6 @@ $theme-colors: (
   "primary": #000
 );
 
+$enable-rounded: false;
+
 @import "node_modules/bootstrap/scss/bootstrap";
