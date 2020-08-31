@@ -38,6 +38,10 @@ header
 
 .navbar-brand
   width: 20%
+  @media(min-width: 768px)
+    width: 10%
+  @media(min-width: 992px)
+    width: 5%
 
   img
     width: 100%
