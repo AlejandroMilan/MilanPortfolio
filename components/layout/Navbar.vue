@@ -31,6 +31,13 @@
 <style lang="sass" scoped>
 header
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  position: fixed
+  width: 100%
+  @media(min-width: 992px)
+    max-width: 992px
+    margin: 0 auto
+    left: 0
+    right: 0
 
 .navbar-toggler
   background-color: #fff
