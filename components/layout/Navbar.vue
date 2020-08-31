@@ -30,6 +30,7 @@
 
 <style lang="sass" scoped>
 header
+  background-color: var(--white)
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
   position: fixed
   width: 100%
