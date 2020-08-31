@@ -39,9 +39,24 @@ export default Vue.extend({
   },
 
   mounted() {
-    setTimeout(() => {
-      this.adjectivePosition++
-    }, 2000)
+    const changeText = (i: number) => {
+      setTimeout(() => {
+        this.changeText()
+      }, 5000 * i)
+    }
+    for (let i = 0; i <= 50; i++) {
+      changeText(i)
+    }
+  },
+
+  methods: {
+    changeText() {
+      if (this.adjectivePosition + 1 === this.adjectives.length) {
+        this.adjectivePosition = 0
+      } else {
+        this.adjectivePosition++
+      }
+    },
   },
 })
 </script>
