@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div>
+    <div class="for-main">
       <WhatIsProgramming></WhatIsProgramming>
     </div>
   </main>
@@ -13,6 +13,9 @@ main
   background-color: var(--white)
   display: flex
   align-items: center
+
+  .for-main
+    width: 100%
 </style>
 
 <script lang="ts">
