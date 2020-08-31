@@ -19,6 +19,10 @@
             {{ navLink.name }}
           </b-nav-item>
         </b-navbar-nav>
+
+        <b-navbar-nav class="ml-auto">
+          <a class="btn btn-primary" href="">Hola mundo</a>
+        </b-navbar-nav>
       </b-collapse>
     </b-navbar>
   </header>
