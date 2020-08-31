@@ -1,5 +1,7 @@
 <template>
-  <h1>Navbar</h1>
+  <header>
+    <a class="btn btn-primary" href="">Hola</a>
+  </header>
 </template>
 
 <script lang="ts">
