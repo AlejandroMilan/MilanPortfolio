@@ -28,6 +28,14 @@
   </header>
 </template>
 
+<style lang="sass" scoped>
+.navbar-brand
+  width: 20%
+
+  img
+    width: 100%
+</style>
+
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
