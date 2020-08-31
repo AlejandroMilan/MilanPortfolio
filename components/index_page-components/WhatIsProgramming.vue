@@ -1,6 +1,8 @@
 <template>
   <div class="what-is-programming container">
-    <h1 class="font-weight-bold">Web development is</h1>
+    <h1 class="font-weight-bold">
+      Web development is {{ adjectives[adjectivePosition] }}
+    </h1>
   </div>
 </template>
 
@@ -13,5 +15,12 @@
 
 <script lang="ts">
 import Vue from 'vue'
-export default Vue.extend({})
+export default Vue.extend({
+  data: () => {
+    return {
+      adjectivePosition: 0,
+      adjectives: ['interesting', 'awesome', 'an art'],
+    }
+  },
+})
 </script>
