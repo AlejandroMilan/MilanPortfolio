@@ -11,8 +11,12 @@
 
       <b-collapse is-nav>
         <b-navbar-nav>
-          <b-nav-item v-for="navLink in navLinks" :key="navLink.name">
-            <nuxt-link :to="navLink.destination">{{ navLink.name }}</nuxt-link>
+          <b-nav-item
+            v-for="navLink in navLinks"
+            :key="navLink.name"
+            :to="navLink.destination"
+          >
+            {{ navLink.name }}
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
