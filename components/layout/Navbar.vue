@@ -7,9 +7,9 @@
           alt="Logo"
         />
       </b-navbar-brand>
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-navbar-toggle target="navbar"></b-navbar-toggle>
 
-      <b-collapse is-nav>
+      <b-collapse id="navbar" is-nav>
         <b-navbar-nav>
           <b-nav-item
             v-for="navLink in navLinks"
