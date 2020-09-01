@@ -3,6 +3,7 @@
     <div class="for-main">
       <WhatIsProgramming></WhatIsProgramming>
       <Presentation></Presentation>
+      <SocialLinks></SocialLinks>
     </div>
   </main>
 </template>
@@ -23,11 +24,13 @@ main
 import Vue from 'vue'
 import WhatIsProgramming from '~/components/index_page-components/WhatIsProgramming.vue'
 import Presentation from '~/components/index_page-components/Presentation.vue'
+import SocialLinks from '~/components/index_page-components/SocialLinks.vue'
 
 export default Vue.extend({
   components: {
     WhatIsProgramming,
     Presentation,
+    SocialLinks,
   },
 })
 </script>
