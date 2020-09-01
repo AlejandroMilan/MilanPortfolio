@@ -1,5 +1,5 @@
 <template>
-  <b-button variant="primary" to="/"> Work with me </b-button>
+  <b-button variant="primary" to="/contact"> Work with me </b-button>
 </template>
 
 <script lang="ts">
