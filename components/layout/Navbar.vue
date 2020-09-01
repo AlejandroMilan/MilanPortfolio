@@ -98,12 +98,12 @@ export default Vue.extend({
           destination: '/about',
         },
         {
-          name: 'My services',
-          destination: '/services',
+          name: 'My skills',
+          destination: '/skills',
         },
         {
-          name: 'Skills',
-          destination: '/skills',
+          name: 'Projects created',
+          destination: '/projects',
         },
       ],
     }
