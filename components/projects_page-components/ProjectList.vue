@@ -24,7 +24,7 @@
             >
           </div>
           <div v-if="project.gitRepo" class="repo-button">
-            <a :href="project.gitRepo" class="btn btn-primary"
+            <a :href="project.gitRepo" target="_blank" class="btn btn-primary"
               >View in github</a
             >
           </div>
@@ -75,7 +75,7 @@ export default Vue.extend({
         {
           name: 'My portfolio',
           description: 'I created my own portfolio to take myself know.',
-          gitRepo: 'Hola',
+          gitRepo: 'https://github.com/AlejandroMilan/MilanPortfolio',
           technologiesUsed: [
             'HML',
             'CSS',
