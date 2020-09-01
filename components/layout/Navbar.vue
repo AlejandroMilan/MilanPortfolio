@@ -38,7 +38,7 @@ header
   position: fixed
   width: 100%
   @media(min-width: 992px)
-    max-width: 992px
+    max-width: 960px
     margin: 0 auto
     left: 0
     right: 0
