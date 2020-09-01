@@ -1,12 +1,16 @@
 <template>
   <section class="skill-list">
     <div class="container">
-      <article class="skill-list-item" v-for="skill in skills" :key="skill.name">
+      <article
+        v-for="skill in skills"
+        :key="skill.name"
+        class="skill-list-item"
+      >
         <div class="skill-list-item-icon">
-	  <font-awesome-icon :icon="[skill.iconType, skill.iconName]" />
-	</div>
+          <font-awesome-icon :icon="[skill.iconType, skill.iconName]" />
+        </div>
         <div class="skill-list-item-title">
-          <h2>{{skill.name}}</h2>
+          <h2>{{ skill.name }}</h2>
         </div>
       </article>
     </div>
@@ -17,7 +21,15 @@
 import Vue from 'vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faHtml5, faCss3, faJsSquare, faPhp, faNode, faVuejs, faAngular } from '@fortawesome/free-brands-svg-icons'
+import {
+  faHtml5,
+  faCss3,
+  faJsSquare,
+  faPhp,
+  faNode,
+  faVuejs,
+  faAngular,
+} from '@fortawesome/free-brands-svg-icons'
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 library.add(faHtml5, faCss3, faJsSquare, faPhp, faNode, faVuejs, faAngular)
 
