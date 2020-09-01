@@ -7,6 +7,11 @@
           alt="My photo working"
         />
       </div>
+      <div class="about-me-text">
+        <h1 class="font-weight-bold">
+          Front-End Developer with 4 years of experience
+        </h1>
+      </div>
     </div>
   </section>
 </template>
@@ -22,6 +27,7 @@ img
     width: 100%
     display: grid
     grid-template-columns: 30% 70%
+    column-gap: 2rem
 
     .image
       width: 100%
