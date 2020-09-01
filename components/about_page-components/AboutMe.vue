@@ -33,6 +33,7 @@
 <style lang="sass" scoped>
 img
   width: 100%
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
 
 .about-me
   width: 100%
@@ -45,7 +46,6 @@ img
 
     .image
       width: 100%
-      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
 </style>
 
 <script lang="ts">
