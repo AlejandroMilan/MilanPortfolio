@@ -11,11 +11,32 @@
         </div>
         <div class="skill-list-item-title">
           <h2>{{ skill.name }}</h2>
+          <small>{{ skill.experienceTime }}</small>
         </div>
       </article>
     </div>
   </section>
 </template>
+
+<style lang="sass" scoped>
+.skill-list .container
+  @media(min-width: 768px)
+    display: grid
+    grid-template-columns: 50% 50%
+    column-gap: 1rem
+  @media(min-width: 992px)
+    grid-template-columns: 33.3% 33.3% 33.3%
+
+.skill-list-item
+  width: 100%
+  padding: 1rem 0
+  margin: 1rem 0
+  text-align: center
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+
+  .skill-list-item-icon
+    font-size: 2rem
+</style>
 
 <script lang="ts">
 import Vue from 'vue'
