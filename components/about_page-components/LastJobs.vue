@@ -27,6 +27,14 @@
   </section>
 </template>
 
+<style lang="sass" scoped>
+.last-jobs-item
+  padding: 1rem 0
+
+  .badge
+    margin: 0 2px
+</style>
+
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
