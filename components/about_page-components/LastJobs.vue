@@ -28,6 +28,11 @@
 </template>
 
 <style lang="sass" scoped>
+.last-jobs-container
+  @media(min-width: 992px)
+    display: grid
+    grid-template-columns: 50% 50%
+
 .last-jobs-item
   padding: 1rem 0
 
