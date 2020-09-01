@@ -3,6 +3,9 @@
     <h2 class="font-weight-light h5">
       Hello, my name is Alejandro and I am interested to work with you.
     </h2>
+    <div class="container">
+      <CTAButton></CTAButton>
+    </div>
   </div>
 </template>
 
@@ -14,5 +17,11 @@
 
 <script lang="ts">
 import Vue from 'vue'
-export default Vue.extend({})
+import CTAButton from '~/components/layout/CTAButton.vue'
+
+export default Vue.extend({
+  components: {
+    CTAButton,
+  },
+})
 </script>
