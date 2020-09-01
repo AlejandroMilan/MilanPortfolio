@@ -1,8 +1,16 @@
 <template>
-  <h1>Proyectos</h1>
+  <main>
+    <ProjectsTitle></ProjectsTitle>
+  </main>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-export default Vue.extend({})
+import ProjectsTitle from '~/components/projects_page-components/ProjectsTitle.vue'
+
+export default Vue.extend({
+  components: {
+    ProjectsTitle,
+  },
+})
 </script>
