@@ -50,16 +50,16 @@ export default Vue.extend({
         {
           title: 'Web Developer',
           employer: 'Grupo SMIN',
-          initDate: 'November, 2016',
-          finishDate: 'March, 2018',
+          initDate: 'November 2016',
+          finishDate: 'March 2018',
           description: 'Build a responsive website with catalog integrated.',
           technologiesUsed: ['HTML', 'CSS', 'JS', 'PHP', 'MySQL'],
         },
         {
           title: 'Web Developer and TI Manager',
-          employer: 'Telfonía Feydi',
-          initDate: 'June, 2019',
-          finishDate: 'April, 2020',
+          employer: 'Telefonía Feydi',
+          initDate: 'June 2019',
+          finishDate: 'April 2020',
           description:
             'Build a responsive website and create POS system focused in phone repairs. Integrate digital strategies to improve the team productivity.',
           technologiesUsed: [
