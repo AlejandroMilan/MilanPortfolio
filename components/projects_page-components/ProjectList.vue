@@ -100,7 +100,22 @@ export default Vue.extend({
             'Firebase services',
           ],
           imageSource:
-            'https://lh3.googleusercontent.com/B7j4PPkxjXc7fpfrU3Nz6-0k1evEeTEl9J94MRDPxE0igH1VkWau6_FKCbtPCpLBVKOstvk6XwkS1aSNwGQyzRsg6YoqL5W7yE4Wn1NsmCCMxmYdPdDaRQ12yBj7JTmwDMbyPl_ObEpHxTK9FfgQthXoeVjVmWqu_NEF0aFf0kGBdh7KAhhNs0XTnNmAu2l6eQRTOmo04Fo5an8Dd23rEFmucJm4Nd_aINczrSvYdbdmwlpTkGIrUNm1fdCPmbRhx_chr0nDMLnzdL8QgEpp0fBSc5aJZN-l75JnsRen3WnhWEm-dARLxX_QM23t_xxFypwVwL7XdHSvGRBp4H4dnOQKLwWOQI7_fgoGsT4DFgGVY2jwN6sZKAfPdgAcKd-y3S_XBaa4_zF88lm6foVmNfsxT-TxoBnelj6-9pusBSaK1y1IB1vYFzc8COWa0EQhGR_GKYLeNNQNvNxm03_EJ9433gjsQnep2LiHuE-xBYG1Jt98mvWC3lp4_ZSS71Seon9XD4Fgl8vEqxP4e0-AYRoHx0AID9j5JuG61VF8qL0K1Ln9teSJ1YV_P6nuNLSog0BFgNUk4u3m9aoxQ4J_LQ-6660EnyMHb08GOEx8uMUEVZz0fzfph8ZZK4m-dVGaohlI_Nf48nOWpoESQJdV0paFEWVIpkVv-ZW1svsUYuZcIGgU3DjV2StckCco=w347-h195-no?authuser=3',
+            'https://lh3.googleusercontent.com/lh5FBl5gLziJ8moPjidtfyFvK9ilA45JiAyU6dSmnJofIsqwuNMJcXJ8zYhJ6NiEw-xp9gujsSTMFGpKuidrhdkCHHHXRa63i26jSG18kKYHlo7rtPXYsMuiP65GqBjHaFUeYY8g_pxUjmg7mi4NQT12cGmpGa60b_GKZVeEf3BS-axkqV-6mB9rVpMEQTZ-uAkIYyuGlIS8_UrTEj4-4zZFaHpduFolugeGEU7qgolE-kwgSKpKw1RCaOojhaUL2ZEZA5XObi7nTzHk1oXpTZJyjBIK4gblJac1uL6RtNffo-bjlNyiyXpZ8bvGs_-ukLN8jAPu-LfCuFjS9I3uYzfZpfKcNGxcT79iJJbg9SX29Sq5PZz7PRLQqISudhCtpQjq0hxTYlr6iyhm3jVxa8c_gETH1hx7NXhwC_-V2Z07b5xsUpFzQS9-AdDdayXFC60lMXbi4il_3JgXfBHs_o5QOMCkfd0AYky_pXZkhWoFUeAs6fEv7x4WevxQEYbUUjTDfAtmg7H2vA3gCKS_qXY5A0r_u9NxiL6WNrPSFu3Z-j5TrRR-Bwj6L4t9B9iqIeOXoHDFGqRSX0cdivQa-W06QflLP5h6LurmnLuLwmNnWNJJZwzEX2yxry8ANo4aOm-nKLIr6eiqOtoSdwRI0CI31ztj32YaTiuR_OVLcXLIyEIXZzSXjDpIb_QS=w1364-h767-no?authuser=3',
+        },
+        {
+          name: 'Dev Tek Website',
+          description:
+            'Responsive website for Dev Tek, bussiness dedicated to digital strategies for business.',
+          technologiesUsed: [
+            'HTML',
+            'CSS',
+            'JS',
+            'Node.js',
+            'Vue.js',
+            'Nuxt.js',
+          ],
+          imageSource:
+            'https://lh3.googleusercontent.com/lypSDs9KeyBvqXmkSPkdyZ5rukm0jI49oSds7nR0YQOV9vqFLKw2PUIEi9RIIumIOw7vlmhQScEzGAUXOborXD-ziQJDtkA6FNatC7B8l4boWR_5OjEs1Qjj6Vv3IppWifC9Ta2lffB_47BVjyXa5tyT6exdKO9VlTZ6HCZqvjVyezMPz69EoIoshYMOUnFvrIJNXdzc4uyd7rM_PUtfL6npjgDbWFHrgZui6ALuEhqNtqF37Yv2UT1Zp3VkzR57jVOVoUN70ULD5qVmlUuNKQjewyEjz7eE7UEV5Jiy0Ft4PTbEYG1XJyzLPzc4yP5jFzjff1FtIG1hT3Vk2VRTZsFblS2i2lrGkTu0YmJ5qMAaf5T_qZpWpAJvdYSXDNGALZ4Zesq8qab8PsqsbcWm9kz0tRjjXTa-VfBoCc1Er57kdYUhotVMZVXKAw7O5gQt6-aS9_mWnLotI-BkcILyTtB4FzlXoAzw_CV0_PB4Ig-otVeJiN6PcxP55u91hmEpNF9Udp9jcdnNaHdN6bBYhUu3rioLEcudjLJNN-3Si6bxTjoUfPefqepZI9EM7V7OK1NiRur9C7W7w_3wGVie9vgh9HPAuANSgUGLphtXhXWsbwVu_EuPl7-z-EIysnJNKp__Zy2A0RjGjVPCQDs3YnElheOpChNg522LEevpSeXNYkKccaZ4AyLk4gdl=w1364-h767-no?authuser=3',
         },
       ],
     }
