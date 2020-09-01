@@ -29,12 +29,15 @@ img
 
   .container
     width: 100%
-    display: grid
-    grid-template-columns: 30% 70%
-    column-gap: 2rem
+    @media(min-wdth: 992px)
+      display: grid
+      grid-template-columns: 30% 70%
+      column-gap: 2rem
 
     .image
       width: 100%
+      @media(max-width: 992px)
+        padding: 1rem 0
 </style>
 
 <script lang="ts">
