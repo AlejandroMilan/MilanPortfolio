@@ -9,7 +9,7 @@
       </div>
       <div class="about-me-text">
         <h1 class="font-weight-bold">
-          Front-End Developer with 4 years of experience
+          {{ title }}
         </h1>
         <p v-for="(paragraph, index) in paragraphs" :key="index">
           {{ paragraph }}
@@ -42,6 +42,7 @@ import Vue from 'vue'
 export default Vue.extend({
   data: () => {
     return {
+      title: 'Front-End Developer with 4 years of experience',
       paragraphs: [
         'My complete name is Alejandro Milán Serrano, I am from Mexico and I am 19 years old. I like to play guitar and do sports in my free time.',
         'I am a technology lover and my passion for programming started at 13 years when I tried to do my own videogames, that is when i learned about videogames development with Unity, C# and Javascript.',
