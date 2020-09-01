@@ -22,9 +22,8 @@
 
         <b-navbar-nav class="ml-auto">
           <transition name="slide-fade" mode="out-in">
-            <b-button variant="primary" to="/"> Work with me </b-button>
+            <CTAButton></CTAButton>
           </transition>
-          <b-button variant="primary" to="/"> Work with me </b-button>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -76,8 +75,14 @@ header
 
 <script lang="ts">
 import Vue from 'vue'
+import CTAButton from '~/components/layout/CTAButton.vue'
+
 export default Vue.extend({
   name: 'Navbar',
+
+  components: {
+    CTAButton,
+  },
 
   data: () => {
     return {
