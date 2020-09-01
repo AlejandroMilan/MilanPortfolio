@@ -13,5 +13,54 @@
 
 <script lang="ts">
 import Vue from 'vue'
-export default Vue.extend({})
+export default Vue.extend({
+  data: () => {
+    return {
+      skills: [
+        {
+          name: 'HTML',
+          iconName: '',
+          iconType: '',
+          experienceTime: '',
+        },
+        {
+          name: 'CSS',
+          iconName: '',
+          iconType: '',
+          experienceTime: '',
+        },
+        {
+          name: 'Javascript',
+          iconName: '',
+          iconType: '',
+          experienceTime: '',
+        },
+        {
+          name: 'PHP',
+          iconName: '',
+          iconType: '',
+          experienceTime: '',
+        },
+        {
+          name: 'Node.js',
+          iconName: '',
+          iconType: '',
+          experienceTime: '',
+        },
+        {
+          name: 'Vue.js',
+          iconName: '',
+          iconType: '',
+          experienceTime: '',
+        },
+        {
+          name: 'Angular',
+          iconName: '',
+          iconType: '',
+          experienceTime: '',
+        },
+      ],
+    }
+  },
+})
 </script>
