@@ -22,8 +22,8 @@
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
-          <transition v-if="path != '/'" name="slide-fade" mode="out-in">
-            <CTAButton></CTAButton>
+          <transition name="slide-fade" mode="out-in">
+            <CTAButton v-if="path != '/'"></CTAButton>
           </transition>
         </b-navbar-nav>
       </b-collapse>
