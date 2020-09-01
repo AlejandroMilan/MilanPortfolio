@@ -2,6 +2,7 @@
   <main>
     <SkillsTitle></SkillsTitle>
     <SkillList></SkillList>
+    <div class="container"><hr /></div>
     <OtherSkills></OtherSkills>
   </main>
 </template>
