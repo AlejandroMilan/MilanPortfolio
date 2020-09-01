@@ -7,7 +7,9 @@
         class="project-list-item"
       >
         <div class="project-list-item-image">
-          <img :src="project.imageSource" alt="Project image" />
+          <b-aspect aspect="16:9">
+            <img :src="project.imageSource" alt="Project image" />
+          </b-aspect>
         </div>
         <div class="project-list-item-description">
           <h2>{{ project.name }}</h2>
@@ -32,6 +34,38 @@
   </section>
 </template>
 
+<style lang="sass" scoped>
+img
+  width: 100%
+
+.project-list .container
+  @media(min-width: 768px) and (max-width: 992px)
+    display: flex
+    column-gap: 1%
+
+.project-list-item
+  padding: 0 1rem 1rem 1rem
+  margin: 2rem 0
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  @media(min-width: 768px) and (max-width: 992px)
+    width: 50%
+  @media(min-width: 992px)
+    display: flex
+    padding: 0
+
+  .project-list-item-image
+    width: 70%
+
+  .project-list-item-description
+    padding: 1rem
+
+  .badge
+    margin: 0 2px
+
+  .repo-button
+    padding: 1rem 0
+</style>
+
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
@@ -39,9 +73,9 @@ export default Vue.extend({
     return {
       projects: [
         {
-          name: 'My prtfolio',
+          name: 'My portfolio',
           description: 'I created my own portfolio to take myself know.',
-          gitRepo: '',
+          gitRepo: 'Hola',
           technologiesUsed: [
             'HML',
             'CSS',
