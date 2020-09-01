@@ -1,11 +1,7 @@
 <template>
   <main>
-    <div class="left">
-      <ContactTitle></ContactTitle>
-    </div>
-    <div class="right">
-      <ContactForm></ContactForm>
-    </div>
+    <ContactTitle></ContactTitle>
+    <ContactForm></ContactForm>
   </main>
 </template>
 
