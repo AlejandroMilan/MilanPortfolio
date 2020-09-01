@@ -29,7 +29,7 @@ img
 
   .container
     width: 100%
-    @media(min-wdth: 992px)
+    @media(min-width: 992px)
       display: grid
       grid-template-columns: 30% 70%
       column-gap: 2rem
