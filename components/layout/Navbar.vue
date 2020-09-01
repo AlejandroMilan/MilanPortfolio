@@ -14,6 +14,7 @@
           <b-nav-item
             v-for="navLink in navLinks"
             :key="navLink.name"
+            :active="$router.currentRoute.path == navLink.destination"
             :to="navLink.destination"
           >
             {{ navLink.name }}
