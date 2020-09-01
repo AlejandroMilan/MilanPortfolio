@@ -1,5 +1,13 @@
 <template>
-  <h1>Links</h1>
+  <div class="social-links container">
+    <article class="social-links-item">
+      <a class="social-link-item-icons">
+      </a>
+      <div class="social-link-item-title">
+        <h3 class="h5"></h3>
+      </div>
+    </article>
+  </div>
 </template>
 
 <script lang="ts">
