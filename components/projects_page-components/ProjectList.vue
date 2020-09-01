@@ -25,7 +25,7 @@
           </div>
           <div v-if="project.gitRepo" class="repo-button">
             <a :href="project.gitRepo" target="_blank" class="btn btn-primary"
-              >View in github</a
+              >View in Github</a
             >
           </div>
         </div>
