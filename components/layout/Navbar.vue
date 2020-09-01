@@ -21,6 +21,9 @@
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
+          <transition name="slide-fade" mode="out-in">
+            <b-button variant="primary" to="/"> Work with me </b-button>
+          </transition>
           <b-button variant="primary" to="/"> Work with me </b-button>
         </b-navbar-nav>
       </b-collapse>
@@ -53,6 +56,22 @@ header
 
   img
     width: 100%
+
+
+.what-is-programming
+  width: 100%
+  text-align: center
+  text-transform: uppercase
+
+.slide-fade-enter-active
+  transition: all .3s ease
+
+.slide-fade-leave-active
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0)
+
+.slide-fade-enter, .slide-fade-leave-to
+  transform: translateX(10px)
+  opacity: 0
 </style>
 
 <script lang="ts">
