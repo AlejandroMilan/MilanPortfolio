@@ -8,7 +8,7 @@
           :key="index"
           class="last-jobs-item"
         >
-          <h3 class="font-weight-bold">{{ job.title }}</h3>
+          <h3>{{ job.title }}</h3>
           <h4>{{ job.employer }}</h4>
           <small>{{ job.initDate }} to {{ job.finishDate }}</small>
           <p>{{ job.description }}</p>
