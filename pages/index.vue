@@ -2,6 +2,7 @@
   <main>
     <div class="for-main">
       <WhatIsProgramming></WhatIsProgramming>
+      <Presentation></Presentation>
     </div>
   </main>
 </template>
@@ -21,10 +22,12 @@ main
 <script lang="ts">
 import Vue from 'vue'
 import WhatIsProgramming from '~/components/index_page-components/WhatIsProgramming.vue'
+import Presentation from '~/components/index_page-components/Presentation.vue'
 
 export default Vue.extend({
   components: {
     WhatIsProgramming,
+    Presentation,
   },
 })
 </script>
