@@ -1,6 +1,7 @@
 <template>
   <main>
     <AboutMe></AboutMe>
+    <div class="container"><hr /></div>
     <LastJobs></LastJobs>
   </main>
 </template>
