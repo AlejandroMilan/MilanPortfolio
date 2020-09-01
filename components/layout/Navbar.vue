@@ -21,7 +21,11 @@
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
-          <transition name="slide-fade" mode="out-in">
+          <transition
+            v-if="this.$router.currentRoute.path != '/'"
+            name="slide-fade"
+            mode="out-in"
+          >
             <CTAButton></CTAButton>
           </transition>
         </b-navbar-nav>
