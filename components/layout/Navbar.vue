@@ -14,7 +14,7 @@
           <b-nav-item
             v-for="navLink in navLinks"
             :key="navLink.name"
-            :active="$router.currentRoute.path == navLink.destination"
+            :active="path == navLink.destination"
             :to="navLink.destination"
           >
             {{ navLink.name }}
@@ -22,11 +22,7 @@
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto">
-          <transition
-            v-if="this.$router.currentRoute.path != '/'"
-            name="slide-fade"
-            mode="out-in"
-          >
+          <transition v-if="path != '/'" name="slide-fade" mode="out-in">
             <CTAButton></CTAButton>
           </transition>
         </b-navbar-nav>
@@ -91,6 +87,7 @@ export default Vue.extend({
 
   data: () => {
     return {
+      path: '',
       navLinks: [
         {
           name: 'Home',
@@ -110,6 +107,16 @@ export default Vue.extend({
         },
       ],
     }
+  },
+
+  watch: {
+    $route() {
+      this.path = this.$route.path
+    },
+  },
+
+  created() {
+    this.path = this.$route.path
   },
 })
 </script>
