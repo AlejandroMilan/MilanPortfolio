@@ -11,19 +11,8 @@
         <h1 class="font-weight-bold">
           Front-End Developer with 4 years of experience
         </h1>
-        <p>
-          My complete name is Alejandro Milán Serrano, I am from Mexico and I am
-          19 years old. I like to play guitar and do sports in my free time.
-        </p>
-        <p>
-          I am a technology lover and my passion for programming started at 13
-          years when I tried to do my own videogames, that is when i learned
-          about videogames development with Unity, C# and Javascript.
-        </p>
-        <p>
-          At my 15 years old I was required for build a website to a Real State
-          business, wich had to include a catalog of properties. Since then I am
-          dedicating to web development.
+        <p v-for="(paragraph, index) in paragraphs" :key="index">
+          {{ paragraph }}
         </p>
       </div>
     </div>
@@ -50,5 +39,15 @@ img
 
 <script lang="ts">
 import Vue from 'vue'
-export default Vue.extend({})
+export default Vue.extend({
+  data: () => {
+    return {
+      paragraphs: [
+        'My complete name is Alejandro Milán Serrano, I am from Mexico and I am 19 years old. I like to play guitar and do sports in my free time.',
+        'I am a technology lover and my passion for programming started at 13 years when I tried to do my own videogames, that is when i learned about videogames development with Unity, C# and Javascript.',
+        'At my 15 years old I was required to build a website to a Real State business, wich had to include a catalog of properties. Since then I am dedicating to web development.',
+      ],
+    }
+  },
+})
 </script>
