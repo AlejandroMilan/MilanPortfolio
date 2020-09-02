@@ -1,7 +1,7 @@
 <template>
   <section class="other-contact-medias">
     <div class="container">
-      <h2>Other ways to contact with me</h2>
+      <h2>{{ title }}</h2>
       <div class="contact-medias">
         <article
           v-for="(contactMedia, index) in contactMedias"
@@ -55,6 +55,7 @@ library.add(faWhatsapp, faEnvelope)
 export default Vue.extend({
   data: () => {
     return {
+      title: 'Other ways to contact me',
       contactMedias: [
         {
           content: 'alejandro.milan.serrano@gmail.com',
