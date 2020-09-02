@@ -32,6 +32,11 @@ export default Vue.extend({
         'MongoDB',
         'Firebase services',
         'REST APIs Development',
+	'Git',
+	'Docker',
+	'Bootstrap',
+	'Bulma.css',
+	'Vuetify',
       ],
     }
   },
