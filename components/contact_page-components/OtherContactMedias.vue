@@ -26,11 +26,13 @@ export default Vue.extend({
       contactMedias: [
         {
           content: 'alejandro.milan.serrano@gmail.com',
-          iconName: '',
+          iconName: 'envelope',
+	  iconType: 'fas',
         },
         {
           content: '+52 427-227-8479',
-          iconName: '',
+          iconName: 'whatsapp',
+	  iconType: 'fab',
         },
       ],
     }
