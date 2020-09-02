@@ -22,6 +22,22 @@
   </section>
 </template>
 
+<style lang="sass" scoped>
+.other-contact-medias
+  text-align: center
+  padding: 2rem 0
+  @media(min-width: 992px)
+    text-align: left
+
+  .contact-medias-item
+    display: flex
+    justify-content: center
+    column-gap: 5px
+    margin: 10px 0
+    @media(min-width: 992px)
+      justify-content: left
+</style>
+
 <script lang="ts">
 import Vue from 'vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
