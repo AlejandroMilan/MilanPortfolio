@@ -54,10 +54,12 @@ img
     padding: 0
 
   .project-list-item-image
-    width: 70%
+    @media(min-width: 992px)
+      width: 70%
 
   .project-list-item-description
-    padding: 1rem
+    @media(min-width: 992px)
+      padding: 1rem
 
   .badge
     margin: 0 2px
