@@ -17,7 +17,7 @@
             v-model="form.lastName"
             type="text"
             required
-            placeholder="Your first name"
+            placeholder="Your last name"
           ></b-form-input>
         </b-form-group>
         <b-form-group>
@@ -33,11 +33,11 @@
           <b-form-textarea
             id="textarea-message"
             v-model="form.message"
-            placeholder="Your message"
+            placeholder="Your message (optional)"
             rows="3"
           ></b-form-textarea>
         </b-form-group>
-        <b-button type="submit" variant="primary">Send form</b-button>
+        <b-button type="submit" variant="primary">{{ buttonTitle }}</b-button>
       </form>
     </div>
   </section>
@@ -55,6 +55,7 @@ import Vue from 'vue'
 export default Vue.extend({
   data: () => {
     return {
+      buttonTitle: 'Send',
       form: {
         firstName: '',
         lastName: '',
