@@ -88,6 +88,7 @@ export default Vue.extend({
   data: () => {
     return {
       isHidden: true,
+      path: '',
       navLinks: [
         {
           name: 'Home',
@@ -116,6 +117,7 @@ export default Vue.extend({
       } else {
         this.isHidden = false
       }
+      this.path = this.$route.path
     },
   },
 
@@ -125,6 +127,7 @@ export default Vue.extend({
     } else {
       this.isHidden = false
     }
+    this.path = this.$route.path
   },
 })
 </script>
