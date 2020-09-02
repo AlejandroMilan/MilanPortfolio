@@ -28,6 +28,11 @@
   padding: 2rem 0
   @media(min-width: 992px)
     text-align: left
+    padding: 0
+
+  h2
+    @media(min-width: 992px)
+      font-size: 1.5rem
 
   .contact-medias-item
     display: flex
