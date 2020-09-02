@@ -23,7 +23,7 @@
 
         <b-navbar-nav class="ml-auto">
           <transition name="slide-fade" mode="out-in">
-            <CTAButton v-if="path != '/'"></CTAButton>
+            <CTAButton v-if="!isHidden"></CTAButton>
           </transition>
         </b-navbar-nav>
       </b-collapse>
@@ -87,7 +87,7 @@ export default Vue.extend({
 
   data: () => {
     return {
-      path: '',
+      isHidden: true,
       navLinks: [
         {
           name: 'Home',
@@ -111,12 +111,20 @@ export default Vue.extend({
 
   watch: {
     $route() {
-      this.path = this.$route.path
+      if (this.$route.path === '/' || this.$route.path === '/contact') {
+        this.isHidden = true
+      } else {
+        this.isHidden = false
+      }
     },
   },
 
   created() {
-    this.path = this.$route.path
+    if (this.$route.path === '/' || this.$route.path === '/contact') {
+      this.isHidden = true
+    } else {
+      this.isHidden = false
+    }
   },
 })
 </script>
