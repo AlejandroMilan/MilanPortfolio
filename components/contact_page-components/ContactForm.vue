@@ -37,6 +37,7 @@
             rows="3"
           ></b-form-textarea>
         </b-form-group>
+        <b-button type="submit" variant="primary">Send form</b-button>
       </form>
     </div>
   </section>
