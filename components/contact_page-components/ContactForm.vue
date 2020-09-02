@@ -42,6 +42,13 @@
   </section>
 </template>
 
+<style lang="sass" scoped>
+.form-control
+  border: 0
+  border-bottom: 1px solid #000
+  padding: 0.25rem
+</style>
+
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
