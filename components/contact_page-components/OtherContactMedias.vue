@@ -8,7 +8,11 @@
           :key="index"
           class="contact-medias-item"
         >
-          <div class="contact-media-item-icon"></div>
+          <div class="contact-media-item-icon">
+            <font-awesome-icon
+              :icon="[contactMedia.iconType, contactMedia.iconName]"
+            />
+          </div>
           <div class="contact-media-item-content">
             {{ contactMedia.content }}
           </div>
@@ -20,6 +24,13 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+library.add(faWhatsapp, faEnvelope)
+
 export default Vue.extend({
   data: () => {
     return {
@@ -27,12 +38,12 @@ export default Vue.extend({
         {
           content: 'alejandro.milan.serrano@gmail.com',
           iconName: 'envelope',
-	  iconType: 'fas',
+          iconType: 'fas',
         },
         {
           content: '+52 427-227-8479',
           iconName: 'whatsapp',
-	  iconType: 'fab',
+          iconType: 'fab',
         },
       ],
     }
