@@ -14,6 +14,11 @@ import SkillList from '~/components/skills_page-components/SkillList.vue'
 import OtherSkills from '~/components/skills_page-components/OtherSkills.vue'
 
 export default Vue.extend({
+  transition: {
+    name: 'slide-fade',
+    mode: 'out-in',
+  },
+
   components: {
     SkillsTitle,
     SkillList,
