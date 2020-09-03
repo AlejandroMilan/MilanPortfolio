@@ -93,7 +93,7 @@ export default Vue.extend({
       const serviceId = process.env.NUXT_ENV_EMAIL_SERVICE_ID
       const templateId = process.env.NUXT_ENV_EMAIL_SERVICE_TEMPLATE
       const userId = process.env.NUXT_ENV_EMAIL_USER_ID
-      emailjs.send(serviceId, templateId, this.form, userId).then(
+      emailjs.send(serviceId!, templateId!, this.form!, userId!).then(
         () => {
           this.isSuccess = true
           this.isSending = false
