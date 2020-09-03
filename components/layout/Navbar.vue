@@ -1,7 +1,7 @@
 <template>
   <header>
     <b-navbar toggleable="lg">
-      <b-navbar-brand href="/">
+      <b-navbar-brand to="/">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FMIL%C3%81N%20Logo%20500x500.png?alt=media&token=257f6f17-f480-46ef-80a4-a7e1f084c663"
           alt="Logo"
