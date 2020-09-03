@@ -50,6 +50,9 @@
       <b-alert :show="isSuccess" variant="primary" fade>
         Message sended, thanks :)
       </b-alert>
+      <b-alert :show="error" variant="danger" fade>
+        Something went wrong, sorry :( | Error: {{ error }}
+      </b-alert>
     </div>
   </section>
 </template>
@@ -74,6 +77,7 @@ export default Vue.extend({
       buttonTitle: 'Send',
       isSuccess: false,
       isSending: false,
+      error: null,
       form: {
         firstName: '',
         lastName: '',
@@ -89,14 +93,14 @@ export default Vue.extend({
       const serviceId = process.env.NUXT_ENV_EMAIL_SERVICE_ID
       const templateId = process.env.NUXT_ENV_EMAIL_SERVICE_TEMPLATE
       const userId = process.env.NUXT_ENV_EMAIL_USER_ID
-      console.log([serviceId, templateId, userId])
       emailjs.send(serviceId, templateId, this.form, userId).then(
-        (result) => {
+        () => {
           this.isSuccess = true
-	  this.isSending = false
+          this.isSending = false
         },
         (error) => {
-          console.log('FAILED...', error)
+          this.error = error
+          this.isSending = false
         }
       )
     },
