@@ -1,7 +1,7 @@
 <template>
   <section class="contact-form">
     <div class="container">
-      <form @submit="sendForm">
+      <form @submit.prevent="sendForm">
         <b-form-group>
           <b-form-input
             id="input-first_name"
