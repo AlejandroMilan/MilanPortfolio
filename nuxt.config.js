@@ -14,14 +14,24 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'MILAN - Front-End Developer with 4 years of experience',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content: '¿A 19 years old Developer with 4 years of experiece? Awesome',
+      },
+      {
+        hid: 'robots',
+        name: 'robots',
+        content: 'INDEX, FOLLOW',
+      },
+      {
+        hid: 'author',
+        name: 'author',
+        content: 'MILAN',
       },
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/logo.png' }],
