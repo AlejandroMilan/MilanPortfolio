@@ -41,16 +41,28 @@ import OtherContactMedias from '~/components/contact_page-components/OtherContac
 import SocialLinks from '~/components/index_page-components/SocialLinks.vue'
 
 export default Vue.extend({
-  transition: {
-    name: 'slide-fade',
-    mode: 'out-in',
-  },
-
   components: {
     ContactForm,
     ContactTitle,
     OtherContactMedias,
     SocialLinks,
+  },
+  head() {
+    return {
+      title: 'Contact | MILAN',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Contact me. Let me help you.',
+        },
+      ],
+    }
+  },
+
+  transition: {
+    name: 'slide-fade',
+    mode: 'out-in',
   },
 })
 </script>

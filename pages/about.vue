@@ -12,14 +12,26 @@ import AboutMe from '~/components/about_page-components/AboutMe.vue'
 import LastJobs from '~/components/about_page-components/LastJobs.vue'
 
 export default Vue.extend({
-  transition: {
-    name: 'slide-fade',
-    mode: 'out-in',
-  },
-
   components: {
     AboutMe,
     LastJobs,
+  },
+  head() {
+    return {
+      title: 'About me | MILAN',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Some things about me, my passions and my las jobs.',
+        },
+      ],
+    }
+  },
+
+  transition: {
+    name: 'slide-fade',
+    mode: 'out-in',
   },
 })
 </script>
