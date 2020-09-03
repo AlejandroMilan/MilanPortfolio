@@ -5,7 +5,7 @@
       :key="socialLink.name"
       class="social-links-item"
     >
-      <a class="social-link-item-icon" href="socialLink.url">
+      <a class="social-link-item-icon" :href="socialLink.url" target="_blank">
         <font-awesome-icon :icon="['fab', socialLink.iconName]" />
       </a>
       <div class="social-link-item-title">
@@ -42,12 +42,12 @@ export default Vue.extend({
       socialLinks: [
         {
           name: 'Github',
-          url: '',
+          url: 'https://github.com/AlejandroMilan/',
           iconName: 'github',
         },
         {
           name: 'LinkedIn',
-          url: '',
+          url: 'https://www.linkedin.com/in/alejandro-milán-5a52491b6/',
           iconName: 'linkedin',
         },
       ],
