@@ -3,7 +3,7 @@
     <b-navbar toggleable="lg">
       <b-navbar-brand href="/">
         <img
-          src="https://lh3.googleusercontent.com/I4niaWFoAVpElYyV_GK3LEGz9PQMFcrhABQVz94HkJ2vQwpkeIJJFq2xY7hfJ9Vn6Z5yXKuSm8KEzv47hp82y5NjsLcL_NzzlyQDHMO4n7AGR57juCQv3o-ij0MVVY_YcT3YZeirxm_DfHw5ZIwvvaI0YnW6P0wJT68ZpYvVEZM6ZkjpkInjFR0iukofr46Osl3pZy6q0avGKbd5uPd2cHhB6DgPCTd3drlkfundqGaSOg3lBU1gxQy706oePO2n9hWiLCxw9nyOVaQM7vEvi9_V4b_pddEKrwT6Oa96u4PWT5gdsnwGyzeNQUiRQyZq7FOpd_CcKKpTaU-MZq6PMPnXWCGeGq9dkxT_DSwRsm3-Rk8x6bDMZVXWp7dGJFVdA_xYeXtdj9b_PXZX09LLj-0r_rakPqG1FWd-VttMKK6FPcYN9VpHkmcT362E4z9InKTCEB_w2q0UZcVdxYO4V7hbzdTs3W90QMX_ljU6mXuYJU_gLzUkzG2PLPE_4vtsP4c8OFfVyvG83Wn7UwRxW6TdhWdYZKy2gComGqwzKh2Ay_HHGN7WwjEiEIOZdlQgjkkYraZ3Bnrf2Ecc-0S-jfAD234Y2aI2wAucCcLtvurvCSmuJofFg4_Kt94__ZxMfaDHI1h9xlMCXicbhYYUhjTBYAezG5Tx03kMXRvuLMcBE65qbZdPkH3h1YW-=s500-no?authuser=3"
+          src="https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FMIL%C3%81N%20Logo%20500x500.png?alt=media&token=257f6f17-f480-46ef-80a4-a7e1f084c663"
           alt="Logo"
         />
       </b-navbar-brand>
