@@ -21,7 +21,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: '¿A 19 years old Developer with 4 years of experiece? Awesome',
+        content:
+          '¿A 19 years old Developer with 4 years of experience? Awesome',
       },
       {
         hid: 'robots',
@@ -73,10 +74,17 @@ export default {
       fileName: 'logo.png',
     },
     meta: {
+      name: 'MILAN',
+      description:
+        '¿A 19 years old developer with 4 years of experience? Awesome',
       ogSiteName: 'MILAN - Front-End Web Developer',
       ogTitle: 'MILAN',
       ogDesceription:
         '¿A 19 years old Developer with 4 years of experience? Awesome',
+    },
+    manifest: {
+      name: 'MILAN',
+      lang: 'en',
     },
   },
 }
