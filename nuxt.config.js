@@ -62,7 +62,26 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     '@nuxtjs/pwa',
+    [
+      'nuxt-fontawesome',
+      {
+        imports: [
+          {
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['fas'],
+          },
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['fab'],
+          },
+        ],
+      },
+    ],
   ],
+  pageTransition: {
+    name: 'slide-fade',
+    mode: 'out-in',
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

@@ -1,5 +1,5 @@
 <template>
-  <section id="last-jobs">
+  <section class="last-jobs">
     <div class="container">
       <h2 class="font-weight-bold">{{ title }}</h2>
       <div class="last-jobs-container">
@@ -27,22 +27,9 @@
   </section>
 </template>
 
-<style lang="sass" scoped>
-.last-jobs-container
-  @media(min-width: 992px)
-    display: grid
-    grid-template-columns: 50% 50%
-
-.last-jobs-item
-  padding: 1rem 0
-
-  .badge
-    margin: 0 2px
-</style>
-
-<script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
+<script>
+export default {
+  name: 'LastJobs',
   data: () => {
     return {
       title: 'My last jobs',
@@ -75,5 +62,18 @@ export default Vue.extend({
       ],
     }
   },
-})
+}
 </script>
+
+<style lang="sass" scoped>
+.last-jobs-container
+  @media(min-width: 992px)
+    display: grid
+    grid-template-columns: 50% 50%
+
+.last-jobs-item
+  padding: 1rem 0
+
+  .badge
+    margin: 0 2px
+</style>

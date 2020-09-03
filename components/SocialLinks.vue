@@ -15,28 +15,9 @@
   </div>
 </template>
 
-<style lang="sass" scoped>
-.social-links
-  width: 100%
-  padding: 2rem 0
-  display: flex
-  flex-wrap: wrap
-  justify-content: center
-  text-align: center
-  column-gap: 1rem
-
-  .social-link-item-icon
-    font-size: 2rem
-</style>
-
-<script lang="ts">
-import Vue from 'vue'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-Vue.component('font-awesome-icon', FontAwesomeIcon)
-library.add(faGithub, faLinkedin)
-export default Vue.extend({
+<script>
+export default {
+  name: 'SocialLinks',
   data: () => {
     return {
       socialLinks: [
@@ -53,5 +34,19 @@ export default Vue.extend({
       ],
     }
   },
-})
+}
 </script>
+
+<style lang="sass" scoped>
+.social-links
+  width: 100%
+  padding: 2rem 0
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  text-align: center
+  column-gap: 1rem
+
+  .social-link-item-icon
+    font-size: 2rem
+</style>

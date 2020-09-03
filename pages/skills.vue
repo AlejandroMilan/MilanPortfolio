@@ -1,19 +1,18 @@
 <template>
   <main>
-    <SkillsTitle></SkillsTitle>
-    <SkillList></SkillList>
+    <skills-title />
+    <skill-list />
     <div class="container"><hr /></div>
-    <OtherSkills></OtherSkills>
+    <other-skills />
   </main>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-import SkillsTitle from '~/components/skills_page-components/SkillsTitle.vue'
-import SkillList from '~/components/skills_page-components/SkillList.vue'
-import OtherSkills from '~/components/skills_page-components/OtherSkills.vue'
+<script>
+import SkillsTitle from '@/components/skills/SkillsTitle'
+import SkillList from '@/components/skills/SkillList'
+import OtherSkills from '@/components/skills/OtherSkills'
 
-export default Vue.extend({
+export default {
   components: {
     SkillsTitle,
     SkillList,
@@ -31,10 +30,5 @@ export default Vue.extend({
       ],
     }
   },
-
-  transition: {
-    name: 'slide-fade',
-    mode: 'out-in',
-  },
-})
+}
 </script>

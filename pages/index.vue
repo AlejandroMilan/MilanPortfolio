@@ -1,12 +1,26 @@
 <template>
   <main>
     <div class="for-main">
-      <WhatIsProgramming></WhatIsProgramming>
-      <Presentation></Presentation>
-      <SocialLinks></SocialLinks>
+      <what-is-programming />
+      <presentation />
+      <social-links />
     </div>
   </main>
 </template>
+
+<script>
+import WhatIsProgramming from '@/components/index/WhatIsProgramming'
+import Presentation from '@/components/index/Presentation'
+import SocialLinks from '@/components/SocialLinks'
+
+export default {
+  components: {
+    WhatIsProgramming,
+    Presentation,
+    SocialLinks,
+  },
+}
+</script>
 
 <style lang="sass" scoped>
 main
@@ -19,23 +33,3 @@ main
   .for-main
     width: 100%
 </style>
-
-<script lang="ts">
-import Vue from 'vue'
-import WhatIsProgramming from '~/components/index_page-components/WhatIsProgramming.vue'
-import Presentation from '~/components/index_page-components/Presentation.vue'
-import SocialLinks from '~/components/index_page-components/SocialLinks.vue'
-
-export default Vue.extend({
-  transition: {
-    name: 'slide-fade',
-    mode: 'out-in',
-  },
-
-  components: {
-    WhatIsProgramming,
-    Presentation,
-    SocialLinks,
-  },
-})
-</script>

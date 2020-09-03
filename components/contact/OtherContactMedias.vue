@@ -22,6 +22,29 @@
   </section>
 </template>
 
+<script>
+export default {
+  name: 'OtherContactMedia',
+  data: () => {
+    return {
+      title: 'Other ways to contact me',
+      contactMedias: [
+        {
+          content: 'alejandro.milan.serrano@gmail.com',
+          iconName: 'envelope',
+          iconType: 'fas',
+        },
+        {
+          content: '+52 427-227-8479',
+          iconName: 'whatsapp',
+          iconType: 'fab',
+        },
+      ],
+    }
+  },
+}
+</script>
+
 <style lang="sass" scoped>
 .other-contact-medias
   text-align: center
@@ -42,33 +65,3 @@
     @media(min-width: 992px)
       justify-content: left
 </style>
-
-<script lang="ts">
-import Vue from 'vue'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-Vue.component('font-awesome-icon', FontAwesomeIcon)
-library.add(faWhatsapp, faEnvelope)
-
-export default Vue.extend({
-  data: () => {
-    return {
-      title: 'Other ways to contact me',
-      contactMedias: [
-        {
-          content: 'alejandro.milan.serrano@gmail.com',
-          iconName: 'envelope',
-          iconType: 'fas',
-        },
-        {
-          content: '+52 427-227-8479',
-          iconName: 'whatsapp',
-          iconType: 'fab',
-        },
-      ],
-    }
-  },
-})
-</script>

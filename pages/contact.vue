@@ -1,11 +1,39 @@
 <template>
   <main>
-    <ContactTitle class="title"></ContactTitle>
-    <ContactForm class="contact-form"></ContactForm>
-    <OtherContactMedias class="other-contact-ways"></OtherContactMedias>
-    <SocialLinks class="social-links"></SocialLinks>
+    <contact-title class="title" />
+    <contact-form class="contact-form" />
+    <other-contact-medias class="other-contact-ways" />
+    <social-links class="social-links" />
   </main>
 </template>
+
+<script>
+import ContactForm from '@/components/contact/ContactForm'
+import ContactTitle from '@/components/contact/ContactTitle'
+import OtherContactMedias from '@/components/contact/OtherContactMedias'
+import SocialLinks from '@/components/SocialLinks'
+
+export default {
+  components: {
+    ContactForm,
+    ContactTitle,
+    OtherContactMedias,
+    SocialLinks,
+  },
+  head() {
+    return {
+      title: 'Contact | MILAN',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Contact me. Let me help you.',
+        },
+      ],
+    }
+  },
+}
+</script>
 
 <style lang="sass" scoped>
 main
@@ -33,36 +61,3 @@ main
       grid-area: sl
       margin-top: 5rem
 </style>
-<script lang="ts">
-import Vue from 'vue'
-import ContactForm from '~/components/contact_page-components/ContactForm.vue'
-import ContactTitle from '~/components/contact_page-components/ContactTitle.vue'
-import OtherContactMedias from '~/components/contact_page-components/OtherContactMedias.vue'
-import SocialLinks from '~/components/index_page-components/SocialLinks.vue'
-
-export default Vue.extend({
-  components: {
-    ContactForm,
-    ContactTitle,
-    OtherContactMedias,
-    SocialLinks,
-  },
-  head() {
-    return {
-      title: 'Contact | MILAN',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'Contact me. Let me help you.',
-        },
-      ],
-    }
-  },
-
-  transition: {
-    name: 'slide-fade',
-    mode: 'out-in',
-  },
-})
-</script>

@@ -1,16 +1,15 @@
 <template>
   <main>
-    <ProjectsTitle></ProjectsTitle>
-    <ProjectList></ProjectList>
+    <projects-title />
+    <project-list />
   </main>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-import ProjectsTitle from '~/components/projects_page-components/ProjectsTitle.vue'
-import ProjectList from '~/components/projects_page-components/ProjectList.vue'
+<script>
+import ProjectsTitle from '@/components/projects/ProjectsTitle'
+import ProjectList from '@/components/projects/ProjectList'
 
-export default Vue.extend({
+export default {
   components: {
     ProjectsTitle,
     ProjectList,
@@ -27,10 +26,5 @@ export default Vue.extend({
       ],
     }
   },
-
-  transition: {
-    name: 'slide-fade',
-    mode: 'out-in',
-  },
-})
+}
 </script>

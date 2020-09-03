@@ -57,21 +57,12 @@
   </section>
 </template>
 
-<style lang="sass" scoped>
-.form-control
-  border: 0
-  border-bottom: 1px solid #000
-  padding: 0.25rem
-
-.alert
-  margin: 1rem 0
-</style>
-
 <script lang="ts">
 import Vue from 'vue'
 import emailjs from 'emailjs-com'
 
 export default Vue.extend({
+  name: 'ContactForm',
   data: () => {
     return {
       buttonTitle: 'Send',
@@ -107,3 +98,13 @@ export default Vue.extend({
   },
 })
 </script>
+
+<style lang="sass" scoped>
+.form-control
+  border: 0
+  border-bottom: 1px solid #000
+  padding: 0.25rem
+
+.alert
+  margin: 1rem 0
+</style>
