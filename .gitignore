@@ -91,4 +91,4 @@ sw.*
 
 .firebaserc
 firebase.json
-
+.firebase/
