@@ -48,7 +48,7 @@
         >
       </form>
       <b-alert :show="isSuccess" variant="primary" fade>
-        Message sended, thanks :)
+        Message sent, thanks :)
       </b-alert>
       <b-alert :show="error" variant="danger" fade>
         Something went wrong, sorry :( | Error: {{ error }}
