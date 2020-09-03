@@ -24,7 +24,7 @@ export default {
         content: process.env.npm_package_description || '',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/png', href: '/logo.png' }],
   },
   /*
    ** Global CSS
@@ -57,4 +57,16 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+
+  pwa: {
+    icon: {
+      fileName: 'logo.png',
+    },
+    meta: {
+      ogSiteName: 'MILAN - Front-End Web Developer',
+      ogTitle: 'MILAN',
+      ogDesceription:
+        '¿A 19 years old Developer with 4 years of experience? Awesome',
+    },
+  },
 }
