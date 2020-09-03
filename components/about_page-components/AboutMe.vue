@@ -47,7 +47,7 @@ export default Vue.extend({
     return {
       title: 'Front-End Developer with 4 years of experience',
       paragraphs: [
-        'My complete name is Alejandro Milán Serrano, I am from Mexico and I am 19 years old. I like to play guitar and do sports in my free time.',
+        'My full name is Alejandro Milán Serrano, I am from Mexico and I am 19 years old. I like to play guitar and do sports in my free time.',
         'I am a technology lover and my passion for programming started at 13 years when I tried to do my own videogames, that is when i learned about videogames development with Unity, C# and Javascript.',
         'At my 15 years old I was required to build a website to a Real State business, wich had to include a catalog of properties. Since then I am dedicating to web development.',
       ],
