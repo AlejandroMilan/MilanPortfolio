@@ -29,7 +29,9 @@
               variant="primary"
               :href="project.gitRepo"
               target="_blank"
-              >View in Github
+            >
+              <font-awesome-icon :icon="['fab', 'github']" />
+              View in Github
               <small v-if="!project.gitRepo"
                 >This is a private repository</small
               ></b-button
@@ -77,6 +79,11 @@ img
 
 <script lang="ts">
 import Vue from 'vue'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+library.add(faGithub)
 export default Vue.extend({
   data: () => {
     return {
