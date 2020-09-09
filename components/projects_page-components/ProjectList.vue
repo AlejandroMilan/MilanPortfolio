@@ -24,9 +24,16 @@
             >
           </div>
           <div class="repo-button">
-            <b-button variant="primary" :href="project.gitRepo" target="_blank"
-              >View in Github</a
-            ></b-button>
+            <b-button
+              :disabled="!project.gitRepo"
+              variant="primary"
+              :href="project.gitRepo"
+              target="_blank"
+              >View in Github
+              <small v-if="!project.gitRepo"
+                >This is a private repository</small
+              ></b-button
+            >
           </div>
         </div>
       </article>
