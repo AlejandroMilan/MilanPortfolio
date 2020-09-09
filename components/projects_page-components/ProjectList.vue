@@ -23,10 +23,10 @@
               >{{ technology }}</b-badge
             >
           </div>
-          <div v-if="project.gitRepo" class="repo-button">
-            <a :href="project.gitRepo" target="_blank" class="btn btn-primary"
+          <div class="repo-button">
+            <b-button variant="primary" :href="project.gitRepo" target="_blank"
               >View in Github</a
-            >
+            ></b-button>
           </div>
         </div>
       </article>
