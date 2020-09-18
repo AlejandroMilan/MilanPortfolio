@@ -89,6 +89,23 @@ export default Vue.extend({
     return {
       projects: [
         {
+          name: 'Technical Panel',
+          description:
+            'Technical panel is a "Mobile First Administration Panel" focused to mobile devices repairs. I am still building it.',
+          technologiesUsed: [
+            'HML',
+            'CSS',
+            'JS',
+            'Node.js',
+            'Vue.js',
+            'Firebase Services',
+            'Vuetify',
+          ],
+          imageSource:
+            'https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FPortfolio%2FScreenshot_20200910_205424.png?alt=media&token=773d83e0-1cce-442e-940e-584f07d53711',
+        },
+
+        {
           name: 'My portfolio',
           description: 'I created my own portfolio to take myself know.',
           gitRepo: 'https://github.com/AlejandroMilan/MilanPortfolio',
