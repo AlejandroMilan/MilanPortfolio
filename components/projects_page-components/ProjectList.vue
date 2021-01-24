@@ -89,6 +89,23 @@ export default Vue.extend({
     return {
       projects: [
         {
+          name: 'San Judas Tadeo Website',
+          description:
+            'I built the website for a clinic analyzis lab located at my natal city.',
+          technologiesUsed: [
+            'HML',
+            'CSS',
+            'JS',
+            'Node.js',
+            'Vue.js',
+            'Nuxt.js',
+            'Bootstrap',
+          ],
+          imageSource:
+            'https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FPortfolio%2FScreenshot_2021-01-24%20Laboratorio%20San%20Judas%20Tadeo%20An%C3%A1lisis%20cl%C3%ADnicos%20en%20San%20Juan%20del%20R%C3%ADo%2C%20Quer%C3%A9taro.png?alt=media&token=359f5c14-accc-4182-bc49-497af1466f87',
+        },
+
+        {
           name: 'Technical Panel',
           description:
             'Technical panel is a "Mobile First Administration Panel" focused to mobile devices repairs. I am still building it.',
