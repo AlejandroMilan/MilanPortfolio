@@ -34,6 +34,16 @@ export default {
         name: 'author',
         content: 'MILAN',
       },
+      {
+        property: 'og:description',
+        content:
+          'I am a 19 years old Front-End Developer with 4 years of experience ¿Do you want to work with me?',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FDSC_0448(1).JPG?alt=media&token=734eeac2-8e14-461e-b96a-93ea4b48a75c',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/logo.png' }],
   },
