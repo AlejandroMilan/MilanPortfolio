@@ -164,8 +164,24 @@ export default Vue.extend({
         {
           name: 'Dev Tek Website',
           description:
-            'Responsive website for Dev Tek, bussiness dedicated to digital strategies for business.',
+            'Responsive website for Dev Tek, bussiness dedicated to create digital strategies for other business.',
           projectLink: 'https://devtek.com.mx/',
+          technologiesUsed: [
+            'HTML',
+            'CSS',
+            'JS',
+            'Node.js',
+            'Vue.js',
+            'Nuxt.js',
+            'Bootstrap',
+          ],
+          imageSource:
+            'https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FPortfolio%2FScreen%20Shot%202020-09-01%20at%2017.46.20.png?alt=media&token=30d86063-8183-4dc1-bdcd-fe9a5b7d1587',
+        },
+        {
+          name: 'Telefonía Feydi Website',
+          description: 'Feydi is a mobile devices solutions business.',
+          projectLink: 'https://feydi.com.mx/',
           technologiesUsed: [
             'HTML',
             'CSS',
@@ -175,7 +191,7 @@ export default Vue.extend({
             'Nuxt.js',
           ],
           imageSource:
-            'https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FPortfolio%2FScreen%20Shot%202020-09-01%20at%2017.46.20.png?alt=media&token=30d86063-8183-4dc1-bdcd-fe9a5b7d1587',
+            'https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FPortfolio%2FScreenshot_2021-01-24%20Telefon%C3%ADa%20Feydi%20Soluciones%20en%20telefon%C3%ADa%20m%C3%B3vil%20de%20calidad%20en%20Quer%C3%A9taro.png?alt=media&token=a483f97b-964c-4819-b0a7-fdb6a7848101',
         },
       ],
     }
