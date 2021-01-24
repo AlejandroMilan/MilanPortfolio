@@ -22,7 +22,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          '¿A 19 years old Developer with 4 years of experience? Awesome',
+          'I am a 19 years old Front-End Developer with 4 years of experience ¿Do you want to work with me?',
       },
       {
         hid: 'robots',
