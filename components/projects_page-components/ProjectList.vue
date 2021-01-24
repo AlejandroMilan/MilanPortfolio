@@ -37,6 +37,14 @@
               ></b-button
             >
           </div>
+          <div v-if="project.projectLink" class="project-link">
+            <b-link
+              :href="project.projectLink"
+              target="_blank"
+              class="font-weight-bold"
+              >Visit project</b-link
+            >
+          </div>
         </div>
       </article>
     </div>
@@ -92,6 +100,7 @@ export default Vue.extend({
           name: 'San Judas Tadeo Website',
           description:
             'I built the website for a clinic analyzis lab located at my natal city.',
+          projectLink: 'https://labsanjudastadeo.com/',
           technologiesUsed: [
             'HML',
             'CSS',
@@ -156,6 +165,7 @@ export default Vue.extend({
           name: 'Dev Tek Website',
           description:
             'Responsive website for Dev Tek, bussiness dedicated to digital strategies for business.',
+          projectLink: 'https://devtek.com.mx/',
           technologiesUsed: [
             'HTML',
             'CSS',
