@@ -8,7 +8,7 @@ export default {
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  target: 'server',
+  target: 'static',
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -33,6 +33,10 @@ export default {
         hid: 'author',
         name: 'author',
         content: 'MILAN',
+      },
+      {
+        property: 'og:title',
+        content: 'MILAN - Front-End Developer with 4 years of experience',
       },
       {
         property: 'og:description',
