@@ -102,7 +102,7 @@ export default Vue.extend({
             'I built the website for a clinic analyzis lab located at my natal city.',
           projectLink: 'https://labsanjudastadeo.com/',
           technologiesUsed: [
-            'HML',
+            'HTML',
             'CSS',
             'JS',
             'Node.js',
@@ -119,7 +119,7 @@ export default Vue.extend({
           description:
             'Technical panel is a "Mobile First Administration Panel" focused to mobile devices repairs. I am still building it.',
           technologiesUsed: [
-            'HML',
+            'HTML',
             'CSS',
             'JS',
             'Node.js',
@@ -136,7 +136,7 @@ export default Vue.extend({
           description: 'I created my own portfolio to take myself know.',
           gitRepo: 'https://github.com/AlejandroMilan/MilanPortfolio',
           technologiesUsed: [
-            'HML',
+            'HTML',
             'CSS',
             'JS',
             'Node.js',
