@@ -2,10 +2,7 @@
   <header>
     <b-navbar toggleable="lg">
       <b-navbar-brand to="/">
-        <img
-          src="../../static/logo.png"
-          alt="Logo"
-        />
+        <img src="../../static/logo.png" alt="Logo" />
       </b-navbar-brand>
       <b-navbar-toggle target="navbar"></b-navbar-toggle>
 

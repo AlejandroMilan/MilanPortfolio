@@ -2,10 +2,7 @@
   <section class="about-me">
     <div class="container">
       <div class="image">
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FDSC_0448(1).JPG?alt=media&token=734eeac2-8e14-461e-b96a-93ea4b48a75c"
-          alt="My photo working"
-        />
+        <img src="../../static/DSC_0448.JPG" alt="My photo working" />
       </div>
       <div class="about-me-text">
         <h1 class="font-weight-bold">
