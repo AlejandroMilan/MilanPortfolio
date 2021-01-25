@@ -77,7 +77,7 @@ export default Vue.extend({
       buttonTitle: 'Send',
       isSuccess: false,
       isSending: false,
-      error: null,
+      error: false,
       form: {
         firstName: '',
         lastName: '',
@@ -99,8 +99,9 @@ export default Vue.extend({
           this.isSending = false
         },
         (error) => {
-          this.error = error
+          this.error = true
           this.isSending = false
+	  console.log(error)
         }
       )
     },
