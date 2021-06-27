@@ -117,18 +117,20 @@ export default Vue.extend({
         {
           name: 'Technical Panel',
           description:
-            'Technical panel is a "Mobile First Administration Panel" focused to mobile devices repairs. I am still building it.',
+            'Technical panel is a "Mobile First Administration Panel" focused to mobile devices repairs.',
           technologiesUsed: [
             'HTML',
             'CSS',
             'JS',
             'Node.js',
+            'Express.js',
+            'Mongodb',
             'Vue.js',
-            'Firebase Services',
             'Vuetify',
           ],
           imageSource:
-            'https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FPortfolio%2FScreenshot_20200910_205424.png?alt=media&token=773d83e0-1cce-442e-940e-584f07d53711',
+            'https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FPortfolio%2FCaptura%20de%20pantalla%20(20).png?alt=media&token=0c02b524-89b0-40e5-9a1e-8eb05c285050',
+          projectLink: 'https://t-panel--production-client.herokuapp.com/',
         },
 
         {
