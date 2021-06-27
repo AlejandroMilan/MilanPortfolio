@@ -14,7 +14,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: 'MILAN - Front-End Developer with 4 years of experience',
+    title: 'MILAN - Front-End Developer with 5 years of experience',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -22,7 +22,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'I am a 19 years old Front-End Developer with 4 years of experience ¿Do you want to work with me?',
+          'I am a 20 years old Front-End Developer with 5 years of experience ¿Do you want to work with me?',
       },
       {
         hid: 'robots',
@@ -36,12 +36,12 @@ export default {
       },
       {
         property: 'og:title',
-        content: 'MILAN - Front-End Developer with 4 years of experience',
+        content: 'MILAN - Front-End Developer with 5 years of experience',
       },
       {
         property: 'og:description',
         content:
-          'I am a 19 years old Front-End Developer with 4 years of experience ¿Do you want to work with me?',
+          'I am a 20 years old Front-End Developer with 5 years of experience ¿Do you want to work with me?',
       },
       {
         property: 'og:image',
@@ -90,11 +90,11 @@ export default {
     meta: {
       name: 'MILAN',
       description:
-        '¿A 19 years old developer with 4 years of experience? Awesome',
+        '¿A 20 years old developer with 5 years of experience? Awesome',
       ogSiteName: 'MILAN - Front-End Web Developer',
       ogTitle: 'MILAN',
       ogDesceription:
-        '¿A 19 years old Developer with 4 years of experience? Awesome',
+        '¿A 20 years old Developer with 5 years of experience? Awesome',
     },
     manifest: {
       name: 'MILAN',

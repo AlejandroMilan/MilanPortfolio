@@ -42,7 +42,7 @@ import Vue from 'vue'
 export default Vue.extend({
   data: () => {
     return {
-      title: 'Front-End Developer with 4 years of experience',
+      title: 'Front-End Developer with 5 years of experience',
       paragraphs: [
         'My full name is Alejandro Milán Serrano and I am from Mexico. I like to play guitar and do sports in my free time.',
         'I am a technology lover and my passion for programming started at 13 years when I tried to do my own videogames, that is when I learned about videogames development with Unity, C# and Javascript.',
