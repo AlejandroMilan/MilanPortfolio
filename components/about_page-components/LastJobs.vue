@@ -72,6 +72,22 @@ export default Vue.extend({
             'Firebase services',
           ],
         },
+        {
+          title: 'Full Stack Web Developer',
+          employer: 'Agnus',
+          initDate: 'January 2020',
+          finishDate: 'Current',
+          description:
+            'I help to create new features to Agnus.mx application,Implementing them in Node.js server and Vue.js client.',
+          technologiesUsed: [
+            'HTML',
+            'CSS',
+            'JS',
+            'Node.js',
+            'Vue.js',
+            'Express.js',
+          ],
+        },
       ],
     }
   },
