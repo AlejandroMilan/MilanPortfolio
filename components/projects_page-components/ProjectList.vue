@@ -131,6 +131,7 @@ export default Vue.extend({
           imageSource:
             'https://firebasestorage.googleapis.com/v0/b/alejandro-milan.appspot.com/o/assets%2FPortfolio%2FCaptura%20de%20pantalla%20(20).png?alt=media&token=0c02b524-89b0-40e5-9a1e-8eb05c285050',
           projectLink: 'https://t-panel--production-client.herokuapp.com/',
+          gitRepo: 'https://github.com/AlejandroMilan/T-Panel_client',
         },
 
         {
