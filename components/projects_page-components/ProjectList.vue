@@ -168,7 +168,6 @@ export default Vue.extend({
           name: 'Dev Tek Website',
           description:
             'Responsive website for Dev Tek, bussiness dedicated to create digital strategies for other business.',
-          projectLink: 'https://devtek.com.mx/',
           technologiesUsed: [
             'HTML',
             'CSS',
